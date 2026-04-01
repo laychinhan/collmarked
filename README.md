@@ -10,6 +10,22 @@ A command-line bookmark manager with hierarchical categories and multi-tag suppo
 
 ---
 
+## Milestones
+0.1.0
+- [ ] MVP: Add bookmarks with categories and tags, list bookmarks with filters, delete bookmarks
+- [ ] Add category management (add/list/delete categories, render as tree)
+- [ ] Add tag management (add/list/delete tags)
+- [ ] Add command to extract a bookmarks content as MARKDOWN and store it in the database
+- [ ] Add command to digest a bookmarks content and store it in the database.
+- [ ] Add command to open a bookmark in the default browser.
+- [ ] Add chrome extensions to add bookmarks from the browser.
+- [ ] Add UI for the browser extension to view and manage bookmarks and their digest.
+
+0.2.0
+- [ ] Local MCP server to serve bookmark data for LLM-powered tools (e.g. personal knowledge graph, question-answering over bookmarks, etc.)
+- [ ] ... future features TBD
+---
+
 ## Architecture Decision Record
 
 ### Technology Stack
